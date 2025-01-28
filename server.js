@@ -20,6 +20,7 @@ require("./app/routes/customer.route.js")(app);
 
 require("./app/routes/category.route.js")(app);
 
+require("./app/routes/user.route.js")(app);
 
 
 // set port, listen for requests
