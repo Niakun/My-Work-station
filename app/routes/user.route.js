@@ -3,4 +3,6 @@ module.exports = app => {
   
     app.post("/user", user.create);
     app.post("/user/login", user.login);
+    app.post("/user/login", user.login.app);
+
   };
